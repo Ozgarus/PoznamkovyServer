@@ -7,7 +7,7 @@ message = 'hejlou'
 payload = {'content': message}
 headers = {
     'Content-Type': 'application/json',
-    'Authorization': 'MTA0MTA0ODk5MTAzMjQyNjU5OA.GBbYXP.kpxQYfWXrqgH1hjg0Rq6x7YdkXLEUJi0tt7eQA'
+    'Authorization': 'token'
 }
 
 response = requests.post(webhook_url, data=json.dumps(payload), headers=headers)

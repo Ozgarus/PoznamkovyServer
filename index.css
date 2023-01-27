@@ -1,0 +1,28 @@
+:root {
+    --color_secondary: #3C4359;
+    --color_primary: #1F438C;
+
+    --font-size: 15px;
+}
+
+body {
+    /*Setting page background color*/
+    background-color: var(--color_secondary);
+    color: white;
+    font-size: var(--font-size);
+}
+
+.navbar {
+    background-color: var(--color_primary);
+    font-size: calc(var(--font-size) * 1.5);
+    display: flex;
+}
+
+.navbar > li {
+    padding: 50px;
+
+}
+
+/* Cleaning up */
+ul {
+    list-style: none;

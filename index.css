@@ -26,3 +26,9 @@ body {
 /* Cleaning up */
 ul {
     list-style: none;
+}
+.upload {
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
